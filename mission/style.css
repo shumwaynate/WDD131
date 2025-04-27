@@ -1,0 +1,79 @@
+/* General reset and body styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+/* Content box */
+.content {
+    border: 1px solid lightgray;
+    padding: 40px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+/* Header title styles */
+.title h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* Header subtitle styles */
+.title h2 {
+    color: #006EB6;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: normal;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.title h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+
+/* Main paragraph and list styles */
+main p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+main p em {
+    font-style: italic;
+}
+
+.does-list {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.does-list li {
+    margin-bottom: 20px;
+}
+
+/* Footer/logo styles */
+footer {
+    margin-top: 40px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
