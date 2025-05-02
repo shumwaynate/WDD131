@@ -4,7 +4,7 @@ WDD131 repo for assignments
 Week 1: [Mission Statement](https://shumwaynate.github.io/WDD131/mission)
 
 Week 2: [Week 2](https://shumwaynate.github.io/WDD131/week2)
-    DOM Practice: [Link](https://shumwaynate.github.io/WDD131/dom-basics.html)
+    DOM Practice: [Link](https://shumwaynate.github.io/WDD131/DOMPractice/dom-basics.html)
 
 Week 3: [Week 3](https://shumwaynate.github.io/WDD131/week3)
 
