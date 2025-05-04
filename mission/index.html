@@ -4,15 +4,24 @@
 		<meta charset="UTF-8" />
 		<title>BYUI Mission Statement</title>
 		<link rel="stylesheet" href="style.css" />
-        <meta name="description" content="Mission statement of Brigham Young University-Idaho.">
-        <meta name="author" content="Nathan Shumway">
+		<meta name="description" content="Mission statement of Brigham Young University-Idaho." />
+		<meta name="author" content="Nathan Shumway" />
+		<script src="mission.js" defer></script>
 	</head>
 	<body>
 		<div class="content">
+			<!-- Theme Selector -->
+			<label for="themeSelect">Choose a theme:</label>
+			<select id="themeSelect">
+				<option value="light">Light</option>
+				<option value="dark">Dark</option>
+			</select>
+
 			<header class="title">
 				<h1>Mission Statement</h1>
 				<h2>Brigham Young University-Idaho</h2>
 			</header>
+
 			<main>
 				<p>
 					Brigham Young University-Idaho was founded and is supported and guided
@@ -39,8 +48,9 @@
 					</li>
 				</ol>
 			</main>
+
 			<footer>
-				<img src="image.png" alt="BYUI logo" class="logo" />
+				<img src="image.png" alt="BYUI logo" class="logo" id="logo" />
 			</footer>
 		</div>
 	</body>
