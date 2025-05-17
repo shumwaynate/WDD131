@@ -8,7 +8,7 @@ Week 2: [Week 2](https://shumwaynate.github.io/WDD131/week2)
 
 Week 3: [Week 3](https://shumwaynate.github.io/WDD131/week3)
 
-Week 4: [Week 4](https://shumwaynate.github.io/WDD131/week4)
+Week 4: [coolpics](https://shumwaynate.github.io/WDD131/coolpics)
 
 Week 5: [Week 5](https://shumwaynate.github.io/WDD131/week5)
 
