@@ -36,6 +36,11 @@ nav {
   margin-top: 0.5em;
 }
 
+/* Hides the menu when 'hide' class is applied */
+.hide {
+  display: none;
+}
+
 nav a {
   color: var(--text-light);
   text-decoration: none;
@@ -47,9 +52,8 @@ nav a:hover {
 }
 
 .menu-button {
-  display: none;
-  font-size: 1.1em;
-  margin-bottom: 1em;
+  display: block;
+  margin: 1em auto;
 }
 
 main {
@@ -65,6 +69,7 @@ h2 {
   display: grid;
   gap: 1.5em;
   padding: 2em;
+  grid-template-columns: 1fr;
 }
 
 figure {
@@ -77,6 +82,7 @@ img {
   width: 250px;
   height: 250px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 footer {
@@ -93,21 +99,58 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 
-  nav {
-    display: flex;
-  }
-
-  .menu-button {
-    display: none;
+  #navigation {
+    display: flex !important;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  nav {
-    justify-content: center;
-  }
-
   .gallery {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+
+/* Modal Dialog Styling */
+dialog {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-content {
+  position: relative;
+  display: inline-block;
+}
+
+dialog img {
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  max-height: 50%;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+/* Close button is now RELATIVE to the image */
+.close-viewer {
+  position: absolute;
+  top: -5%;
+  right: 20%;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+  z-index: 20;
 }
