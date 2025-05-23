@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Family Book Reviews</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Family Book Reviews</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Genres</a></li>
+        <li><a href="#">Top Rated</a></li>
+        <li><a href="#">Age Groups</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Helping Families Choose Great Reads</h2>
+      <p>This site provides honest reviews from both parents and kids to help you find books your whole family can enjoy and trust.</p>
+    </section>
+
+    <section class="filters">
+      <input type="text" placeholder="Search by title or keyword..." id="searchInput">
+
+      <select id="genreFilter">
+        <option value="">All Genres</option>
+        <option value="Fantasy">Fantasy</option>
+        <option value="Mystery">Mystery</option>
+        <option value="Adventure">Adventure</option>
+        <option value="Science Fiction">Science Fiction</option>
+        <option value="Historical">Historical</option>
+      </select>
+
+      <select id="ageFilter">
+        <option value="">All Ages</option>
+        <option value="10-12">10-12</option>
+        <option value="10+">10 and up</option>
+        <option value="12-16">12-16</option>
+      </select>
+
+      <select id="sortFilter">
+        <option value="newest">Newest Reviews</option>
+        <option value="highest">Highest Rated</option>
+      </select>
+    </section>
+
+    <section class="book-list" id="bookList">
+      <article class="book-review" data-genre="Fantasy" data-age="10-12" data-rating="4.5" data-date="2025-05-20">
+        <h3>Sample Book Title</h3>
+        <p><strong>Reviewed by:</strong> Parent</p>
+        <p><strong>Reviewed on:</strong> May 20, 2025</p>
+        <p><strong>Age Range:</strong> 10-12</p>
+        <p><strong>Genre:</strong> Fantasy</p>
+        <p><strong>Rating:</strong> 4.5/5</p>
+        <p class="summary">A brief summary of the book, including themes, tone, and key content parents might want to know about.</p>
+      </article>
+      <!-- Add more book-review articles as needed -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Family Book Reviews. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

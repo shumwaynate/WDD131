@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background: #4a90e2;
+    color: white;
+    padding: 1em 2em;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  .intro {
+    margin-bottom: 2em;
+  }
+  
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 2em;
+  }
+  
+  .filters input,
+  .filters select {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+
+  .filters input {
+    flex: 1 1 300px; /* allows it to grow */
+    min-width: 300px; /* ensures it’s wide enough */
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  
+  
+  .book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  
+  .book-review {
+    background: white;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+  }
+  
