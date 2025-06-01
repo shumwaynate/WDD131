@@ -2,13 +2,13 @@ body {
   font-family: Georgia, serif;
   margin: 0;
   padding: 0;
-  background-color: #fffaf8;
+  /* background-color: #fffaf8; */
   color: #333;
 }
 
 header {
   background: #fff;
-  border-bottom: 1px solid #d9cfc1;
+  /* border-bottom: 1px solid #d9cfc1; */
   padding: 1em 2em;
   text-align: center;
 }
