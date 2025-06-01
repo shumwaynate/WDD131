@@ -12,7 +12,7 @@ Week 4: [coolpics](https://shumwaynate.github.io/WDD131/coolpics)
 
 Week 5: [Book Blog](https://shumwaynate.github.io/WDD131/blog)
 
-Week 6: [Week 6](https://shumwaynate.github.io/WDD131/week6)
+Week 6: [Book Blog 2](https://shumwaynate.github.io/WDD131/blog2)
 
 Week 7: [Week 7](https://shumwaynate.github.io/WDD131/week7)
 
