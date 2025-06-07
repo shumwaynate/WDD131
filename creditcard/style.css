@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .credit-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    position: relative;
+  }
+  
+  .card {
+    border-radius: 10px;
+    padding: 20px;
+    background: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: grid;
+    gap: 10px;
+  }
+  
+  .front {
+    grid-row: 1;
+    z-index: 2;
+    position: absolute;
+    width: 360px;
+    height: 200px;
+  }
+  
+  .back {
+    grid-row: 1;
+    z-index: 1;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 360px;
+    height: 200px;
+  }
+
+
+  
+  .back label{
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+  
+  .total {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .card-image {
+    justify-self: end;
+  }
+  
+  label {
+    font-size: 0.8rem;
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+  }
+  
+  .expiration {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+  
+  .black-bar {
+    background: #444;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    grid-row: 2;
+    justify-self: center;
+    padding: 8px 20px;
+    font-size: 1rem;
+    border: 1px solid #444;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
