@@ -16,7 +16,7 @@ Week 6: [Book Blog 2](https://shumwaynate.github.io/WDD131/blog2)
 
 Week 7: [Credit Card](https://shumwaynate.github.io/WDD131/creditcard)
 
-Week 8: [Week 8](https://shumwaynate.github.io/WDD131/week8)
+Week 8: [Register](https://shumwaynate.github.io/WDD131/register)
 
 Week 9: [Week 9](https://shumwaynate.github.io/WDD131/week9)
 
