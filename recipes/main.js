@@ -11,9 +11,9 @@ function getRandomListEntry(list) {
 
 function tagsTemplate(tags) {
   const html = tags
-    .map(tag => `<li>${tag}</li>`)
+    .map(tag => `<button class="tag">${tag}</button>`)
     .join('');
-  return `<ul class="recipe__tags">${html}</ul>`;
+  return `<div class="tags-container">${html}</div>`;
 }
 
 function ratingTemplate(rating) {
