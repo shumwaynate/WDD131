@@ -20,7 +20,7 @@ Week 8: [Register](https://shumwaynate.github.io/WDD131/register)
 
 Week 9: [Recipes](https://shumwaynate.github.io/WDD131/recipes)
 
-Week 10: [Week 10](https://shumwaynate.github.io/WDD131/week10)
+Week 10: [Recipes Again](https://shumwaynate.github.io/WDD131/recipes)
 
 Week 11: [Week 11](https://shumwaynate.github.io/WDD131/week11)
 

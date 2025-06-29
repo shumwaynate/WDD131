@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="recipes.css" />
   <script type="module" src="main.js" defer></script>
 
-  <!-- Social Meta Tags -->
   <meta property="og:title" content="RecipeBook" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="Your go-to place for delicious, easy-to-make recipes!" />
@@ -31,26 +30,13 @@
     <form class="search" role="search">
       <label for="searchInput" class="visually-hidden">Find a recipe</label>
       <input type="text" id="searchInput" placeholder="Find a recipe" />
-      <button aria-label="Search">
+      <button id="searchBtn" aria-label="Search">
         <img src="images/search.svg" alt="" />
       </button>
     </form>
-    <hr class="top-divider" />
 
-    <section class="recipe-card">
-      <img src="images/apple-crisp.jpg" alt="Bowl of Apple Crisp with ice cream" />
-      <div class="recipe-content">
-        <button class="tag">dessert</button>
-        <h2>Apple Crisp</h2>
-        <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
-          <span aria-hidden="true">⭐</span><span aria-hidden="true">⭐</span>
-          <span aria-hidden="true">⭐</span><span aria-hidden="true">⭐</span>
-          <span aria-hidden="true">☆</span>
-        </span>
-        <p class="description">
-          This apple crisp recipe is a simple yet delicious fall dessert that’s great served warm with vanilla ice cream.
-        </p>
-      </div>
+    <section id="recipesContainer">
+      <!-- Recipes will be rendered here dynamically -->
     </section>
   </main>
 
