@@ -22,6 +22,6 @@ Week 9: [Recipes](https://shumwaynate.github.io/WDD131/recipes)
 
 Week 10: [Recipes Again](https://shumwaynate.github.io/WDD131/recipes)
 
-Week 11: [Week 11](https://shumwaynate.github.io/WDD131/week11)
+Week 11: [Project Site Plan](https://shumwaynate.github.io/WDD131/gameLibrary/site-plan.html)
 
 Week 12: [Week 12](https://shumwaynate.github.io/WDD131/week12)
