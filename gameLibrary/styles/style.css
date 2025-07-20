@@ -120,7 +120,7 @@ button.completed {
   max-width: 600px;
   margin-top: 15px;
   /* Give padding 5px around game details */
-  padding: 16px;
+  padding: 14px;
 }
 
 #game-details img {
